@@ -2,21 +2,26 @@ import { ChainablePromiseElement } from 'webdriverio';
 
 import Page from './page.js';
 
+const xpath = {
+    phoneInput: '//form//input',
+    submitButton: 'button[type="submit"]',
+    errorMessageBlock: '//div[contains(@class, "auth-form__description_error")]'
+}
 class ResetPassword extends Page {
     public open () {
         return super.open('https://profile.onliner.by/recover-password');
     }
 
     public enterPhone(phone: string) {
-        return $('//form//input').setValue(phone)
+        return $(xpath.phoneInput).setValue(phone)
     }
 
     public submitButton() {
-        return $('button[type="submit"]')
+        return $(xpath.submitButton)
     }
 
     public errorMessage() {
-        return $('//div[contains(@class, "auth-form__description_error")]').getText()
+        return $(xpath.errorMessageBlock).getText()
     }
 }
 
