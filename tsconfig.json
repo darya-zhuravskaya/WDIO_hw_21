@@ -1,5 +1,6 @@
 {
     "compilerOptions": {
+        "esModuleInterop": true,
         "moduleResolution": "node",
         "module": "ESNext",
         "target": "es2022",
@@ -7,7 +8,8 @@
             "node",
             "@wdio/globals/types",
             "expect-webdriverio",
-            "@wdio/cucumber-framework"
+            "@wdio/cucumber-framework",
+            "log4js"
         ],
         "skipLibCheck": true,
         "noEmit": true,
@@ -19,4 +21,5 @@
         "noUnusedParameters": true,
         "noFallthroughCasesInSwitch": true
     }
+
 }

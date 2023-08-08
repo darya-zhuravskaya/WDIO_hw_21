@@ -2,16 +2,22 @@
   "name": "my-new-project",
   "type": "module",
   "devDependencies": {
+    "@wdio/allure-reporter": "^8.14.0",
     "@wdio/cli": "^8.13.14",
     "@wdio/cucumber-framework": "^8.13.13",
     "@wdio/local-runner": "^8.13.13",
     "@wdio/spec-reporter": "^8.12.2",
+    "allure-commandline": "^2.23.1",
     "chromedriver": "^115.0.0",
     "ts-node": "^10.9.1",
     "typescript": "^5.1.6",
     "wdio-chromedriver-service": "^8.1.1"
   },
   "scripts": {
-    "wdio": "wdio run ./wdio.conf.ts"
+    "wdio": "wdio run ./wdio.conf.ts",
+    "allure:report": "allure generate ./allure-results --clean && allure open"
+  },
+  "dependencies": {
+    "log4js": "^6.9.1"
   }
 }

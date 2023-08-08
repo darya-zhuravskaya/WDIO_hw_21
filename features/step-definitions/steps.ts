@@ -3,9 +3,12 @@ import { Given, When, Then } from '@wdio/cucumber-framework';
 import HomePage from '../pageobjects/home.page.js';
 import ResetPasswordPage from '../pageobjects/reset_password.page.js';
 import ProductPage from '../pageobjects/product.page.js';
+import { logger } from '../../log.config.js';
 
 Given(/^I am on the home page$/, async () => {
+    logger.info("Opening home page")
     await HomePage.open();
+    logger.info("Home page opened")
 });
 
 When(/^I click on (.+)$/, async (link) => {
