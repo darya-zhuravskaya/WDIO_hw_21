@@ -1,0 +1,26 @@
+[2023-08-14T23:19:17.130] [INFO] default - Opening home page
+[2023-08-14T23:19:17.168] [INFO] default - Opening product page
+[2023-08-14T23:19:17.306] [INFO] default - Opening reset password page
+[2023-08-14T23:19:26.751] [INFO] default - Home page opened
+[2023-08-14T23:19:26.761] [INFO] default - Clicking on the link Каталог
+[2023-08-14T23:19:26.857] [INFO] default - Reset password page is opened
+[2023-08-14T23:19:26.868] [INFO] default - Entering phone number +375292222222
+[2023-08-14T23:19:27.869] [INFO] default - Phone number is entered
+[2023-08-14T23:19:27.869] [INFO] default - Clicking on submit Button
+[2023-08-14T23:19:28.121] [INFO] default - Clicked on submit Button
+[2023-08-14T23:19:28.582] [INFO] default - Opening reset password page
+[2023-08-14T23:19:30.344] [INFO] default - Reset password page is opened
+[2023-08-14T23:19:30.349] [INFO] default - Entering empty string
+[2023-08-14T23:19:30.764] [INFO] default - Empty string is entered
+[2023-08-14T23:19:30.764] [INFO] default - Clicking on submit Button
+[2023-08-14T23:19:31.188] [INFO] default - Clicked on submit Button
+[2023-08-14T23:19:32.087] [INFO] default - Clicked on the link Каталог
+[2023-08-14T23:19:32.090] [INFO] default - Checking redirect to the subdomain catalog
+[2023-08-14T23:19:32.118] [INFO] default - Opening home page
+[2023-08-14T23:19:33.007] [INFO] default - Product page is opened
+[2023-08-14T23:19:33.014] [INFO] default - Adding product to the cart
+[2023-08-14T23:19:34.184] [INFO] default - Home page opened
+[2023-08-14T23:19:34.188] [INFO] default - Clicking on the link Автобарахолка
+[2023-08-14T23:19:36.824] [INFO] default - Product is added to the cart
+[2023-08-14T23:19:40.841] [INFO] default - Clicked on the link Автобарахолка
+[2023-08-14T23:19:40.855] [INFO] default - Checking redirect to the subdomain ab
