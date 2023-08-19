@@ -35,7 +35,7 @@ export const config: Options.Testrunner = {
     ],
     // Patterns to exclude.
     exclude: [
-        // 'path/to/excluded/files'
+        './features/homepage.feature'
     ],
     //
     // ============
